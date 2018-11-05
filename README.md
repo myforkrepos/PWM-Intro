@@ -21,11 +21,7 @@ For this tutorial, we will be using a [Teensy 3.2](https://www.pjrc.com/store/te
 
 First, plug your [Teensy 3.2](https://www.pjrc.com/store/teensy32.html) into the [Teensy PWM Backpack](http://bolderflight.com/products/teensy/pwm/) with the USB connector on the end of the backpack that has a white dot; this dot marks the location of the Teensy ground pin. 
 
-INSERT IMAGE
-
 PWM servos have 3 wires: a signal wire carrying the PWM signal, a power wire supplying power for the servo motor to move, and a ground wire. Typically, the PWM signal wire is white, orange, or yellow. Ground is typically black or brown. Power is always red. Plug your servos into the PWM backpack with the signal wire up. The power wire should be in the middle with the ground at the bottom.
-
-INSERT IMAGE
 
 The [Teensy PWM Backpack](http://bolderflight.com/products/teensy/pwm/) buses all of the servo power and grounds together, so simply connect your voltage regulator power and ground to an unused channel. For this tutorial, we will not be using the SBUS RX capability of the [Teensy PWM Backpack](http://bolderflight.com/products/teensy/pwm/), so either make sure the solderpad is connected to VDD instead of 5V or do not connect anything to Channel 8.
 
@@ -39,7 +35,7 @@ The Teensy PWM library is Arduino compatible and the reasons I recommend it are:
 Let's get started!
 
 ## Installation
-The Teensy PWM library is included when Teensyduino is installed. For this tutorial, you can download the code (SineWavePWM) and/or follow along and code it yourself.
+The Teensy PWM library is included when Teensyduino is installed. For this tutorial, you can clone or download the code in this [repository](https://github.com/bolderflight/PWM-Intro) and follow along or code it yourself.
 
 ## Tutorial
 ### Goals
@@ -144,5 +140,5 @@ Armed with the knowledge and experience that you gained with this tutorial, see 
 4. Try tracing the full range of the servo arm on a piece of paper and estimate its angle. Send the servo a PWM command, mark the resulting position and estimate its angle. Do this for several different PWM commands throughout the full range. Can you estimate a function to convert angles to PWM commands? Try writing a function that will take an angle command as a parameter, convert the angle to an appropriate PWM command, and send that command to the servo.
 
 # Next Tutorial
-1. SBUS Introduction: Learn about one of the newest, coolest methods of commanding servos, SBUS! (COMING SOON)
-2. SBUS to PWM Converter: Use your knowledge of PWM and SBUS to create your own SBUS to PWM converter! (COMING SOON)
+1. [SBUS Introduction](https://github.com/bolderflight/SBUS-Intro): Learn about one of the newest, coolest methods of commanding servos, SBUS!
+2. [SBUS to PWM Converter](https://github.com/bolderflight/SBUS-to-PWM): Use your knowledge of PWM and SBUS to create your own SBUS to PWM converter!
