@@ -125,10 +125,10 @@ delay(20);
 
 Done! Congrats, your code should compile and be ready to upload to the [Teensy 3.2](https://www.pjrc.com/store/teensy32.html).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j7PGzULhdo0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Experiment
 Upload your code to the Teensy and apply servo power. You should see your servos move through their full range of motion repeating every second. Try to compare the servo arm position with the command being printed to the Serial Monitor. Most servos will move through almost 180 degrees of motion. Notice how 1000 us corresponds to the minimum position, 2000 us to the maximum position, and 1500 us is in the middle?
+
+You can find a video of the results [here](https://www.youtube.com/watch?v=j7PGzULhdo0&feature=youtu.be)!
 
 # Wrap Up
 In this tutorial we learned about Pulse Width Modulation, or PWM, which is commonly used to send position commands to servos. We used a [Teensy 3.2](https://www.pjrc.com/store/teensy32.html) and the [Teensy PWM Backpack](http://bolderflight.com/products/teensy/pwm/) to command servos to move to positions computed using a sine wave.
