@@ -23,11 +23,11 @@ First, plug your [Teensy 3.2](https://www.pjrc.com/store/teensy32.html) into the
 
 PWM servos have 3 wires: a signal wire carrying the PWM signal, a power wire supplying power for the servo motor to move, and a ground wire. Typically, the PWM signal wire is white, orange, or yellow. Ground is typically black or brown. Power is always red. Plug your servos into the PWM backpack with the signal wire up. The power wire should be in the middle with the ground at the bottom.
 
-![Closeup](/images/closeup.JPG)
+<img src="/images/closeup.JPG" alt="closeup" width="500">
 
 The [Teensy PWM Backpack](http://bolderflight.com/products/teensy/pwm/) buses all of the servo power and grounds together, so simply connect your voltage regulator power and ground to an unused channel. For this tutorial, we will not be using the SBUS RX capability of the [Teensy PWM Backpack](http://bolderflight.com/products/teensy/pwm/), so either make sure the solderpad is connected to VDD instead of 5V or do not connect anything to Channel 8.
 
-![Setup](/images/setup.JPG)
+<img src="/images/setup.JPG" alt="setup" width="500">
 
 # Software
 There is an [Arduino servo library](https://www.arduino.cc/en/Reference/Servo) which lets you send PWM commands, but I recommend using the [Teensy PWM](https://www.pjrc.com/teensy/td_pulse.html) library. 
