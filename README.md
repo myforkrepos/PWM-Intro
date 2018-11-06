@@ -129,6 +129,7 @@ Done! Congrats, your code should compile and be ready to upload to the [Teensy 3
 Upload your code to the Teensy and apply servo power. You should see your servos move through their full range of motion repeating every second. Try to compare the servo arm position with the command being printed to the Serial Monitor. Most servos will move through almost 180 degrees of motion. Notice how 1000 us corresponds to the minimum position, 2000 us to the maximum position, and 1500 us is in the middle?
 
 You can find a video of the results here:
+
 [![Experiment Video](https://img.youtube.com/vi/j7PGzULhdo0/0.jpg)](https://www.youtube.com/watch?v=j7PGzULhdo0)
 
 # Wrap Up
