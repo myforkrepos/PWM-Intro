@@ -147,8 +147,9 @@ Armed with the knowledge and experience that you gained with this tutorial, see 
 3. Write a program that allows you to enter a PWM command in the Serial Monitor and command the servos to move to that position.
 4. Try tracing the full range of the servo arm on a piece of paper and estimate its angle. Send the servo a PWM command, mark the resulting position and estimate its angle. Do this for several different PWM commands throughout the full range. Can you estimate a function to convert angles to PWM commands? Try writing a function that will take an angle command as a parameter, convert the angle to an appropriate PWM command, and send that command to the servo.
 
-# Next Tutorial
-1. [Reading PWM](https://github.com/bolderflight/Reading-PWM): Gain experience measuring pulse widths!
-2. [SBUS Introduction](https://github.com/bolderflight/SBUS-Intro): Learn about one of the newest, coolest methods of commanding servos, SBUS!
-3. [Reading SBUS](https://github.com/bolderflight/Reading-SBUS): Gain experience reading SBUS packets!
-4. [SBUS to PWM Converter](https://github.com/bolderflight/SBUS-to-PWM): Use your knowledge of PWM and SBUS to create your own SBUS to PWM converter!
+# Tutorials in the Series
+1. [PWM Introduction](https://github.com/bolderflight/PWM-Intro): Learn about the de facto standard for controlling servos, PWM!
+2. [Reading PWM](https://github.com/bolderflight/Reading-PWM): Gain experience measuring pulse widths!
+3. [SBUS Introduction](https://github.com/bolderflight/SBUS-Intro): Learn about one of the newest, coolest methods of commanding servos, SBUS!
+4. [Reading SBUS](https://github.com/bolderflight/Reading-SBUS): Gain experience reading SBUS packets!
+5. [SBUS to PWM Converter](https://github.com/bolderflight/SBUS-to-PWM): Use your knowledge of PWM and SBUS to create your own SBUS to PWM converter!
